@@ -1,4 +1,4 @@
-variable "enviroinment" {
+variable "environment" {
   type = string
 }
 variable "region" {
@@ -18,7 +18,7 @@ variable "rg_name"{
 }
 
 #ADF
-variable "adf_name"{
+variable "adfname"{
     type = string
 }
 
@@ -31,3 +31,14 @@ variable "databricks_sku"{
 }
 
 #ADLS
+variable "adls_name"{
+    type = string
+}
+
+#KeyVault
+variable "kv_name"{
+  type= string
+}
+variable "object_id"{
+  type= string
+}
