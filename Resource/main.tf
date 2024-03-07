@@ -30,7 +30,7 @@ resource "azurerm_databricks_workspace" "adb" {
   sku                 = var.databricks_sku
 }
 
-ADLS
+#ADLS
 
 ## resource "azurerm_resource_group" "adls" {
 ##   name     = "example-ADLS"
